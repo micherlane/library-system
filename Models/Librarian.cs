@@ -2,6 +2,7 @@ namespace library_system.Models
 {
     public class Librarian
     {
+        public int Id { get; set; }
         public string? Name {get; set;}
         public string? Address { get; set;}
         public int Mobileno { get; set;}

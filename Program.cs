@@ -1,8 +1,12 @@
+using library_system.Models;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+string mysqlconnection = builder.Configuration.GetConnectionString("MyDbContext");
+builder.Services.AddDbContext<MyDbContext>(options => options.UseMySql(mysqlconnection, ServerVersion.AutoDetect(mysqlconnection)));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
