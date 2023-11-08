@@ -15,4 +15,11 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #efefef;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
