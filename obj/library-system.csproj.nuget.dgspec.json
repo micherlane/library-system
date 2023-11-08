@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/aluno/Documentos/avlis/library-system/library-system.csproj": {}
+    "/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/library-system.csproj": {}
   },
   "projects": {
-    "/home/aluno/Documentos/avlis/library-system/library-system.csproj": {
+    "/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/library-system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aluno/Documentos/avlis/library-system/library-system.csproj",
+        "projectUniqueName": "/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/library-system.csproj",
         "projectName": "library-system",
-        "projectPath": "/home/aluno/Documentos/avlis/library-system/library-system.csproj",
-        "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/home/aluno/Documentos/avlis/library-system/obj/",
+        "projectPath": "/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/library-system.csproj",
+        "packagesPath": "/home/micherlane/.nuget/packages/",
+        "outputPath": "/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/aluno/.nuget/NuGet/NuGet.Config"
+          "/home/micherlane/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

@@ -8,177 +8,177 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = library_system
 build_property.RootNamespace = library_system
-build_property.ProjectDir = /home/aluno/Documentos/avlis/library-system/
+build_property.ProjectDir = /home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/aluno/Documentos/avlis/library-system
+build_property.MSBuildProjectDirectory = /home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Alerts/Create.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Alerts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxlcnRzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Alerts/Delete.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Alerts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxlcnRzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Alerts/Details.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Alerts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxlcnRzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Alerts/Edit.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Alerts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxlcnRzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Alerts/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Alerts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxlcnRzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Catalogs/Create.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Catalogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0YWxvZ3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Catalogs/Delete.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Catalogs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0YWxvZ3MvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Catalogs/Details.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Catalogs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0YWxvZ3MvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Catalogs/Edit.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Catalogs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0YWxvZ3MvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Catalogs/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Catalogs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0YWxvZ3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/FacultyMembers/Create.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/FacultyMembers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdWx0eU1lbWJlcnMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/FacultyMembers/Delete.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/FacultyMembers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdWx0eU1lbWJlcnMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/FacultyMembers/Details.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/FacultyMembers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdWx0eU1lbWJlcnMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/FacultyMembers/Edit.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/FacultyMembers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdWx0eU1lbWJlcnMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/FacultyMembers/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/FacultyMembers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdWx0eU1lbWJlcnMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/GeneralBooks/Create.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/GeneralBooks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhbEJvb2tzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/GeneralBooks/Delete.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/GeneralBooks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhbEJvb2tzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/GeneralBooks/Details.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/GeneralBooks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhbEJvb2tzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/GeneralBooks/Edit.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/GeneralBooks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhbEJvb2tzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/GeneralBooks/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/GeneralBooks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhbEJvb2tzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Home/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Home/Privacy.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Librarians/Create.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Librarians/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWFucy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Librarians/Delete.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Librarians/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWFucy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Librarians/Details.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Librarians/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWFucy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Librarians/Edit.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Librarians/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWFucy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Librarians/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Librarians/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWFucy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/ReferenceBooks/Create.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/ReferenceBooks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlQm9va3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/ReferenceBooks/Delete.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/ReferenceBooks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlQm9va3MvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/ReferenceBooks/Details.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/ReferenceBooks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlQm9va3MvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/ReferenceBooks/Edit.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/ReferenceBooks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlQm9va3MvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/ReferenceBooks/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/ReferenceBooks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlQm9va3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Shared/Error.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Students/Create.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Students/Delete.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Students/Details.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Students/Edit.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Students/Index.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/_ViewImports.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/_ViewStart.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aluno/Documentos/avlis/library-system/Views/Shared/_Layout.cshtml]
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/library-system/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9x80ysw0ql
