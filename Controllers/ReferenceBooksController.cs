@@ -57,16 +57,13 @@ namespace library_system.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,AuthorName,BookName,CatalogId")] ReferenceBook referenceBook)
+        public async Task<IActionResult> Create([Bind("ISBN,Category,IsAvailableForReference,Id,AuthorName,BookName,CatalogId")] ReferenceBook referenceBook)
         {
-            if (ModelState.IsValid)
-            {
+         
                 _context.Add(referenceBook);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["CatalogId"] = new SelectList(_context.Catalog, "Id", "Id", referenceBook.CatalogId);
-            return View(referenceBook);
+           
         }
 
         // GET: ReferenceBooks/Edit/5
@@ -91,15 +88,14 @@ namespace library_system.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,AuthorName,BookName,CatalogId")] ReferenceBook referenceBook)
+        public async Task<IActionResult> Edit(int id, [Bind("ISBN,Category,IsAvailableForReference,Id,AuthorName,BookName,CatalogId")] ReferenceBook referenceBook)
         {
             if (id != referenceBook.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+           
                 try
                 {
                     _context.Update(referenceBook);
@@ -117,9 +113,7 @@ namespace library_system.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["CatalogId"] = new SelectList(_context.Catalog, "Id", "Id", referenceBook.CatalogId);
-            return View(referenceBook);
+            
         }
 
         // GET: ReferenceBooks/Delete/5

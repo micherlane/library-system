@@ -56,13 +56,11 @@ namespace library_system.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,AuthorName,NoOfCopies")] Catalog catalog)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(catalog);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(catalog);
+           
+            _context.Add(catalog);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: Catalogs/Edit/5
@@ -93,8 +91,7 @@ namespace library_system.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+          
                 try
                 {
                     _context.Update(catalog);
@@ -112,8 +109,7 @@ namespace library_system.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            return View(catalog);
+          
         }
 
         // GET: Catalogs/Delete/5

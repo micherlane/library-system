@@ -56,13 +56,11 @@ namespace library_system.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("SName,StudentColl,Id,Mname,Maddress,Mno")] Student student)
         {
-            if (ModelState.IsValid)
-            {
+           
                 _context.Add(student);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(student);
+          
         }
 
         // GET: Students/Edit/5
@@ -93,8 +91,7 @@ namespace library_system.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            
                 try
                 {
                     _context.Update(student);
@@ -112,8 +109,7 @@ namespace library_system.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            return View(student);
+            
         }
 
         // GET: Students/Delete/5

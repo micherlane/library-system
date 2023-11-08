@@ -56,13 +56,11 @@ namespace library_system.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Address,Mobileno")] Librarian librarian)
         {
-            if (ModelState.IsValid)
-            {
+            
                 _context.Add(librarian);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(librarian);
+         
         }
 
         // GET: Librarians/Edit/5
@@ -93,8 +91,7 @@ namespace library_system.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+           
                 try
                 {
                     _context.Update(librarian);
@@ -112,8 +109,7 @@ namespace library_system.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            return View(librarian);
+            
         }
 
         // GET: Librarians/Delete/5

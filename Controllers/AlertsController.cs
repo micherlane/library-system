@@ -59,14 +59,11 @@ namespace library_system.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Issuedate,Bookname,ReturnDate,Fine,LibrarianId")] Alert alert)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(alert);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["LibrarianId"] = new SelectList(_context.Librarian, "Id", "Id", alert.LibrarianId);
-            return View(alert);
+           
+            _context.Add(alert);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+            
         }
 
         // GET: Alerts/Edit/5
@@ -98,8 +95,7 @@ namespace library_system.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+           
                 try
                 {
                     _context.Update(alert);
@@ -117,9 +113,7 @@ namespace library_system.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["LibrarianId"] = new SelectList(_context.Librarian, "Id", "Id", alert.LibrarianId);
-            return View(alert);
+           
         }
 
         // GET: Alerts/Delete/5

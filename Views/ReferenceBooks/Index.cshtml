@@ -13,6 +13,15 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.ISBN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAvailableForReference)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.AuthorName)
             </th>
             <th>
@@ -27,6 +36,15 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ISBN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAvailableForReference)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.AuthorName)
             </td>

@@ -40,7 +40,10 @@ button.accept-policy[b-9x80ysw0ql] {
 }
 
 .footer[b-9x80ysw0ql] {
-  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
   bottom: 0;
   width: 100%;
   white-space: nowrap;

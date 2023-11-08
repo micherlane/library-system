@@ -57,16 +57,12 @@ namespace library_system.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,AuthorName,BookName,CatalogId")] GeneralBook generalBook)
+        public async Task<IActionResult> Create([Bind("Genre,Language,Edition,Id,AuthorName,BookName,CatalogId")] GeneralBook generalBook)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(generalBook);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["CatalogId"] = new SelectList(_context.Catalog, "Id", "Id", generalBook.CatalogId);
-            return View(generalBook);
+           _context.Add(generalBook);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+           
         }
 
         // GET: GeneralBooks/Edit/5
@@ -91,15 +87,14 @@ namespace library_system.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,AuthorName,BookName,CatalogId")] GeneralBook generalBook)
+        public async Task<IActionResult> Edit(int id, [Bind("Genre,Language,Edition,Id,AuthorName,BookName,CatalogId")] GeneralBook generalBook)
         {
             if (id != generalBook.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            
                 try
                 {
                     _context.Update(generalBook);
@@ -117,9 +112,7 @@ namespace library_system.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["CatalogId"] = new SelectList(_context.Catalog, "Id", "Id", generalBook.CatalogId);
-            return View(generalBook);
+           
         }
 
         // GET: GeneralBooks/Delete/5
